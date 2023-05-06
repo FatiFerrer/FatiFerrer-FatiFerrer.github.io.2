@@ -1,0 +1,51 @@
+h1{
+    font-weight: bold;
+    text-align: center;
+    font-family:cursive;
+    color:rgb(113, 206, 243);
+
+
+}
+.board {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+  }
+  
+  .cells {
+    width: 30%;
+    text-align: center;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    cursor: pointer;
+    border-bottom: none;
+  }
+  .flexbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 20px auto;
+
+  }
+  button{
+    display: block;
+   margin: 0 auto;
+   padding: 10px 20px;
+   font-size: 18px;
+   background-color: #0CBABA;
+   color: #fff;
+   border: none;
+   border-radius: 3px;
+ }
+    
+ button:active {
+ 	transform: scale(0.95);
+  }
